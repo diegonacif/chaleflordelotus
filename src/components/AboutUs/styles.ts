@@ -1,5 +1,5 @@
 import styled from "styled-components";
 
 export const AboutUsContainer = styled.section`
-  margin: 0 0.75rem;
+  margin: 1rem 0.75rem 0;
 `

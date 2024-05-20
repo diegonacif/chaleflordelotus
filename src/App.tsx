@@ -2,13 +2,14 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./styles/global";
 import { defaultTheme } from "./styles/default";
 import { AboutUs } from "./components/AboutUs";
+import { MainGallery } from "./components/MainGallery";
 
 export function App() {
 
   return (
     <ThemeProvider theme={defaultTheme}>
       <AboutUs />
-      <div>Fotos - Galeria de Fotos</div>
+      <MainGallery />
       <div>Acomodações</div>
       <div>Comodidades</div>
       <div>Atrações Locais - Galeria</div>
