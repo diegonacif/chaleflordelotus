@@ -10,12 +10,14 @@ import { Packs } from "./components/Packs";
 import { OurLocation } from "./components/OurLocation";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
+import { IntroBanner } from "./components/IntroBanner";
 
 export function App() {
 
   return (
     <ThemeProvider theme={defaultTheme}>
       <Header />
+      <IntroBanner />
       <AboutUs />
       <MainGallery />
       <Accommodations />
