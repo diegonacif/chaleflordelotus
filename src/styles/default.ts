@@ -23,4 +23,7 @@ export const defaultTheme = {
 
   'yellow-500': '#ffe549',
   'orange-500': '#FBA94C',
+
+  'chale-branco': '#FFF6F8',
+  'chale-rosa': '#D74B74'
 }

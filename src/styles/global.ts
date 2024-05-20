@@ -1,6 +1,15 @@
 import { createGlobalStyle } from "styled-components";
+import StarsLove from '../assets/fonts/StarsLove.ttf';
 
 export const GlobalStyle = createGlobalStyle`
+  @font-face {
+    font-family: 'StarsLove';
+    src: url(${StarsLove}) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: auto;
+  }
+
   * {
       margin: 0;
       padding: 0;
