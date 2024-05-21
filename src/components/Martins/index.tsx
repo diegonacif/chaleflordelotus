@@ -3,8 +3,6 @@ import { MartinsContainer, MartinsGrid, MartinsPhoto } from "./styles";
 import { martinsConstants } from "../../constants/martins-constants";
 
 export function Martins() {
-  console.log(martinsConstants.map(martins => martins))
-
   return (
     <MartinsContainer>
       <h2>Atrações Turísticas</h2>
