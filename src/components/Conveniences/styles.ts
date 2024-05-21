@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import lotusEmoji from "../../assets/lotus-emoji.png";
 
-export const AccommodationsContainer = styled.section`
+export const ConveniencesContainer = styled.section`
   padding: 1.5rem 0.75rem;
   background-color: ${({ theme }) => theme['chale-branco']};
   color: ${({ theme }) => theme['gray-800']};

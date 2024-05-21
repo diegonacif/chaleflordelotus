@@ -5,7 +5,7 @@ interface MainGalleryPhotoProps {
 }
 
 export const MainGalleryContainer = styled.section`
-  margin: 1rem 0.75rem 0;
+  padding: 1rem 0.75rem 1.5rem;
 `
 
 export const MainGalleryGrid = styled.div`
@@ -13,6 +13,7 @@ export const MainGalleryGrid = styled.div`
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 3rem 1rem;
+  margin-top: 1rem;
 `
 
 export const MainGalleryPhoto = styled.div<MainGalleryPhotoProps>`
