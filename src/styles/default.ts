@@ -25,5 +25,7 @@ export const defaultTheme = {
   'orange-500': '#FBA94C',
 
   'chale-branco': '#FFF6F8',
-  'chale-rosa': '#D74B74'
+  'chale-rosa': '#D74B74',
+  'chale-verde': '#9CC766',
+  'chale-roxo': '#D9AFE3',
 }

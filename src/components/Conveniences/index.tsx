@@ -6,7 +6,7 @@ export function Conveniences() {
       <h2>Comodidades:</h2>
       <ul>
         <li>Wi-Fi grátis</li>
-        <li>Cozinha compelta equipada</li>
+        <li>Cozinha completa equipada</li>
       </ul>
     </ConveniencesContainer>
   )
