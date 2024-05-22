@@ -88,8 +88,8 @@ export const FooterFoot = styled.div`
     text-align: center;
     /* height: max-content; */
     padding: 0.25rem 0;
-    background-color: ${(props) => props.theme['gray-900']};
-    color: ${(props) => props.theme['gray-500']};
+    background-color: ${(props) => props.theme['chale-rosa']};
+    color: ${(props) => props.theme['gray-300']};
     cursor: default;
   }
 
@@ -99,8 +99,8 @@ export const FooterFoot = styled.div`
     align-items: center;
     /* height: max-content; */
     padding: 0.25rem 0;
-    background-color: ${(props) => props.theme['gray-900']};
-    color: ${(props) => props.theme['gray-500']};
+    background-color: ${(props) => props.theme['chale-rosa']};
+    color: ${(props) => props.theme['gray-300']};
     cursor: pointer;
   }
 `

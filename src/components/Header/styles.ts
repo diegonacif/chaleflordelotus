@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.section`
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,5 +11,12 @@ export const HeaderContainer = styled.section`
   
   h2 {
     font-family: 'StarsLove';
+  }
+
+  .nav-btn {
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
   }
 `

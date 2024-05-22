@@ -1,19 +1,23 @@
-import lotusLogo from "../../assets/logo.png";
-import { Envelope, FacebookLogo, InstagramLogo, TiktokLogo, WhatsappLogo } from "@phosphor-icons/react";
+import { Envelope, FacebookLogo, InstagramLogo, WhatsappLogo } from "@phosphor-icons/react";
 import { FooterContainer, FooterFoot, FooterInner, FooterSocials } from "./styles";
+import { useWindowSize } from "usehooks-ts";
+import lotusLogo from "../../assets/logo.png";
 
 export function Footer() {
-
+  const { width } = useWindowSize()
   const currentyear = new Date().getFullYear();
 
-  const instagramAddress = "http://www.instagram.com/bee.takes";
-  const facebookAddress = "https://www.facebook.com/profile.php?id=61553302315879&mibextid=ZbWKwL";
-  const tiktokAddress = "https://www.tiktok.com/@bee.takes?_t=8kHAB64HwpB&_r=1";
-  const mailAddress = "mailto:beetakes.drones@gmail.com";
+  const instagramAddress = "http://www.instagram.com/chale.flordelotus";
+  const facebookAddress = "https://www.facebook.com/profile.php?id=61559433050819";
+  const mailAddress = "mailto:chaleflordelotus@gmail.com";
 
   const whatsappNumber = "558499480063"
   // const whatsappMessage = "Olá! Gostaria de solicitar um orçamento."
-  const whatsappAddress = `https://web.whatsapp.com/send?phone=${whatsappNumber}&text=`
+
+  const whatsappAddress = width >= 1024 ?
+  `https://web.whatsapp.com/send?phone=${whatsappNumber}&text=` : // Abre diretamente a versão web
+  `https://wa.me/${whatsappNumber}?text=`; // Para uso geral
+
   return (
     <FooterContainer>
       <FooterInner>
@@ -36,13 +40,7 @@ export function Footer() {
             weight="regular" 
             onClick={() => window.open(facebookAddress)}
             id="facebook-logo"
-          />
-          <TiktokLogo 
-            size={32} 
-            weight="regular" 
-            onClick={() => window.open(tiktokAddress)}
-            id="tiktok-logo"
-          />
+          />          
           <Envelope 
             size={32} 
             weight="regular" 
