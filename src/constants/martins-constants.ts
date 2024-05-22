@@ -9,31 +9,31 @@ export const martinsConstants = [
   {
     img: martinsMirantes,
     subtitle: "Mirantes",
-    url: "#",
+    url: "/0",
   },
   {
     img: martinsTrilhas,
     subtitle: "Trilhas",
-    url: "#",
+    url: "/1",
   },
   {
     img: martinsMuseus,
     subtitle: "Museus",
-    url: "#",
+    url: "/2",
   },
   {
     img: martinsDiadema,
     subtitle: "Pôr do Sol - Diadema",
-    url: "#",
+    url: "/3",
   },
   {
     img: martinsCasaDePedra,
     subtitle: "Casa de Pedra",
-    url: "#",
+    url: "/4",
   },
   {
     img: martinsPark,
     subtitle: "West Acqua Park",
-    url: "#",
+    url: "/5",
   },
 ]

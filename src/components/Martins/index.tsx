@@ -1,6 +1,7 @@
 import { MartinsContainer, MartinsGrid, MartinsPhoto } from "./styles";
 // import img from '../../assets/DJI_0956.jpeg';
 import { martinsConstants } from "../../constants/martins-constants";
+import { Link } from "react-router-dom";
 
 export function Martins() {
   return (
@@ -9,9 +10,11 @@ export function Martins() {
       <MartinsGrid>
         {
           martinsConstants.map((martins, index) => (
-            <MartinsPhoto key={index} img={martins.img} url={martins.url}>
-              <span>{martins.subtitle}</span>
-            </MartinsPhoto>
+            <Link to={martins.url}>
+              <MartinsPhoto key={index} img={martins.img} url={martins.url}>
+                <span>{martins.subtitle}</span>
+              </MartinsPhoto>
+            </Link>
           ))
         }
       </MartinsGrid>
