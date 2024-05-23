@@ -7,6 +7,7 @@ import { IntroBanner } from "../../components/IntroBanner";
 import { MainGallery } from "../../components/MainGallery";
 import { Martins } from "../../components/Martins";
 import { OurLocation } from "../../components/OurLocation";
+import { WhatsappButton } from "../../components/WhatsappButton";
 
 export function Main() {
   return (
@@ -20,6 +21,8 @@ export function Main() {
       <Martins />
       <OurLocation />
       <Footer />
+
+      <WhatsappButton />
     </>
   )
 }
