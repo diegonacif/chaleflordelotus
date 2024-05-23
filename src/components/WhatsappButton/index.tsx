@@ -5,7 +5,7 @@ import { useWindowSize } from "usehooks-ts";
 export function WhatsappButton() {
   const { width } = useWindowSize()
 
-  const whatsappNumber = "5584981033283"
+  const whatsappNumber = "558499480063"
   const whatsappAddress = width >= 1024 ?
   `https://web.whatsapp.com/send?phone=${whatsappNumber}&text=` : // Abre diretamente a versão web
   `https://wa.me/${whatsappNumber}?text=`; // Para uso geral
