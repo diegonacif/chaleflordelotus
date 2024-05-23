@@ -1,9 +1,14 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { HeaderContainer } from "./styles";
-import { House, Info } from "@phosphor-icons/react";
+import { ArrowCircleLeft, House, Info } from "@phosphor-icons/react";
 
 export function Header() {
   const location = useLocation();
+  const navigate = useNavigate();
+
+  function previousLocation() {
+    navigate(-1);
+  }
 
   return (
     <HeaderContainer>
@@ -20,7 +25,11 @@ export function Header() {
             <Link to="/">
               <House size={26} />
             </Link>
-          ) : null
+          ) : (
+            <div className="previous-btn" onClick={() => previousLocation()}>
+              <ArrowCircleLeft size={28} />
+            </div>
+          )
         }
       </div>
 

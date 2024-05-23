@@ -19,4 +19,8 @@ export const HeaderContainer = styled.section`
     top: 50%;
     transform: translateY(-50%);
   }
+
+  .previous-btn {
+    cursor: pointer;
+  }
 `
