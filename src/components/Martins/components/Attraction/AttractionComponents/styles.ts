@@ -18,8 +18,17 @@ export const AttractionComponentContainer = styled.div`
     margin-top: 1rem;
   }
 
+  .line {
+    display: inline-flex;
+  }
+
   p {
     text-indent: 1.5rem;
+  }
+
+  aside {
+    font-weight: 500;
+    color: ${({ theme }) => theme['chale-rosa']};
   }
 
   /* h3 {
@@ -36,6 +45,20 @@ export const AttractionComponentContainer = styled.div`
 
     li ~ li {
       margin-top: 0.375rem;
+    }
+  }
+
+  h4 {
+    margin-top: 1rem;
+  }
+
+  .google-map-code {
+    border-radius: 4px;
+    overflow: hidden;
+    
+    iframe {
+      width: 100%;
+      height: 20rem;
     }
   }
 `

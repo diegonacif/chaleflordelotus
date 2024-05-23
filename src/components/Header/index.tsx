@@ -5,7 +5,6 @@ import { House, Info } from "@phosphor-icons/react";
 export function Header() {
   const location = useLocation();
 
-  console.log(location.pathname);
   return (
     <HeaderContainer>
       <Link to="/">

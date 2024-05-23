@@ -11,7 +11,7 @@ export function OurLocation() {
           allowFullScreen={false}
           loading="lazy" 
           referrerPolicy="no-referrer-when-downgrade" 
-          tabIndex={0}
+          // tabIndex={0}
         />
       </div>
     </OurLocationContainer>

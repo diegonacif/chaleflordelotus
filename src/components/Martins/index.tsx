@@ -10,8 +10,8 @@ export function Martins() {
       <MartinsGrid>
         {
           martinsConstants.map((martins, index) => (
-            <Link to={martins.url}>
-              <MartinsPhoto key={index} img={martins.img} url={martins.url}>
+            <Link to={martins.url} key={index}>
+              <MartinsPhoto img={martins.img} url={martins.url}>
                 <span>{martins.subtitle}</span>
               </MartinsPhoto>
             </Link>

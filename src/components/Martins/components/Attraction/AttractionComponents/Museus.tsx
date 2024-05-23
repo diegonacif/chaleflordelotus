@@ -31,6 +31,6 @@ export function Museus() {
         </li>
       </ul>
     </div>
-  </AttractionComponentContainer>
+    </AttractionComponentContainer>
   )
 }
