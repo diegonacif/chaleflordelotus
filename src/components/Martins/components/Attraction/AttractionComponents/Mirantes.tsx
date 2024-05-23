@@ -10,29 +10,39 @@ export function Mirantes() {
         <span>Clique e veja no mapa</span>
         <ul>
           <li>
-            <a href="https://maps.app.goo.gl/33TS1iU9CMRzg8Mg6" target="_blank">
-              Mirante do Canto
-            </a>
+            <aside>
+              <a href="https://maps.app.goo.gl/33TS1iU9CMRzg8Mg6" target="_blank">
+                Mirante do Canto
+              </a>
+            </aside>
           </li>
           <li>
-            <a href="https://maps.app.goo.gl/DGVX7FGPxzUSiSsy7" target="_blank">
-              Mirante da Carranca
-            </a>
+            <aside>
+              <a href="https://maps.app.goo.gl/DGVX7FGPxzUSiSsy7" target="_blank">
+                Mirante da Carranca
+              </a>
+            </aside>
           </li>
           <li>
-            <a href="https://maps.app.goo.gl/njZMZn1UpL2Egxe56" target="_blank">
-              Mirante Penhasco
-            </a>
+            <aside>
+              <a href="https://maps.app.goo.gl/njZMZn1UpL2Egxe56" target="_blank">
+                Mirante Penhasco
+              </a>
+            </aside>
           </li>
           <li>
-            <a href="https://maps.app.goo.gl/duqyjWGdRHmPHfuN6" target="_blank">
-              Mirante Encanto da Serra
-            </a>
+            <aside>
+              <a href="https://maps.app.goo.gl/duqyjWGdRHmPHfuN6" target="_blank">
+                Mirante Encanto da Serra
+              </a>
+            </aside>
           </li>
           <li>
-            <a href="https://maps.app.goo.gl/3Js7Ewa318qD83BB6" target="_blank">
-              Mirante Mãe Guilé
-            </a>
+            <aside>
+              <a href="https://maps.app.goo.gl/3Js7Ewa318qD83BB6" target="_blank">
+                Mirante Mãe Guilé
+              </a>
+            </aside>
           </li>
         </ul>
       </div>

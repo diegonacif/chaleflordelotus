@@ -9,19 +9,25 @@ export function Trilhas() {
       <span className="mt-2">clique no nome para contato por Whatsapp:</span>
       <ul className="mt-1">
         <li>
-          <a href="https://wa.me/5584998310156">
-            Roni Filho
-          </a>
+          <aside>
+            <a href="https://wa.me/5584998310156">
+              Roni Filho
+            </a>
+          </aside>
         </li>
         <li>
-          <a href="https://wa.me/">
-            Felipe Querino
-          </a>
+          <aside>
+            <a href="https://wa.me/">
+              Felipe Querino
+            </a>
+          </aside>
         </li>
         <li>
-          <a href="https://wa.me/">
-            Tida
-          </a>
+          <aside>
+            <a href="https://wa.me/">
+              Tida
+            </a>
+          </aside>
         </li>
       </ul>
 

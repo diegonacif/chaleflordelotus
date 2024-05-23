@@ -10,24 +10,32 @@ export function Museus() {
       <span>Clique e veja no mapa</span>
       <ul>
         <li>
-          <a href="https://maps.app.goo.gl/GEbhpaWGNfd97rA56" target="_blank">
-            Museu Cultural Demétrio Lemos
-          </a>
+          <aside>
+            <a href="https://maps.app.goo.gl/GEbhpaWGNfd97rA56" target="_blank">
+              Museu Cultural Demétrio Lemos
+            </a>
+          </aside>
         </li>
         <li>
-          <a href="https://maps.app.goo.gl/YinQyGh7Xrc37MaW9" target="_blank">
-            Museu Histórico de Martins
-          </a>
+          <aside>
+            <a href="https://maps.app.goo.gl/YinQyGh7Xrc37MaW9" target="_blank">
+              Museu Histórico de Martins
+            </a>
+          </aside>
         </li>
         <li>
-          <a href="https://maps.app.goo.gl/E9sSvTrWeden2vWk9" target="_blank">
-            Memorial Manoel Lino de Paiva
-          </a>
+          <aside>
+            <a href="https://maps.app.goo.gl/E9sSvTrWeden2vWk9" target="_blank">
+              Memorial Manoel Lino de Paiva
+            </a>
+          </aside>
         </li>
         <li>
-          <a href="https://maps.app.goo.gl/Z34c4jzFbWGtBzYQA" target="_blank">
-            Museu do Automóvel Deusdedit Maia
-          </a>
+          <aside>
+            <a href="https://maps.app.goo.gl/Z34c4jzFbWGtBzYQA" target="_blank">
+              Museu do Automóvel Deusdedit Maia
+            </a>
+          </aside>
         </li>
       </ul>
     </div>
