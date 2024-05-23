@@ -1,15 +1,16 @@
 import { MainGalleryContainer, MainGalleryGrid, MainGalleryPhoto } from "./styles";
-import img from '../../assets/DJI_0956.jpeg';
+import { mainGalleryConstants } from "../../constants/main-gallery-constants";
 
 export function MainGallery() {
   return (
     <MainGalleryContainer>
       <h2>Galeria de Fotos</h2>
       <MainGalleryGrid>
-        <MainGalleryPhoto img={img} />
-        <MainGalleryPhoto img={img} />
-        <MainGalleryPhoto img={img} />
-        <MainGalleryPhoto img={img} />
+        {
+          mainGalleryConstants.map((photo, index) => (
+            <MainGalleryPhoto key={index} img={photo.img} />
+          ))
+        }
       </MainGalleryGrid>
     </MainGalleryContainer>
   )
