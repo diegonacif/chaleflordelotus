@@ -19,6 +19,8 @@ export const GlobalStyle = createGlobalStyle`
       text-rendering: optimizeLegibility;
       font-family: 'Ubuntu', sans-serif;
 
+      -webkit-tap-highlight-color: ${({ theme }) => theme['chale-rosa']};;
+
       a {
         text-decoration: none;
         color: inherit;
