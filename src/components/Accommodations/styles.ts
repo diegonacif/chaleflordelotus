@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import lotusEmoji from "../../assets/lotus-emoji.png";
+import { deviceBreakpoint } from "../../styles/breakpoints";
 
 export const AccommodationsContainer = styled.section`
   padding: 1.5rem 0.75rem;
@@ -21,5 +22,9 @@ export const AccommodationsContainer = styled.section`
     li ~ li {
       margin-top: 1rem;
     }
+  }
+
+  @media ${deviceBreakpoint.tablet} {
+    padding: 1.5rem 12.5vw;
   }
 `

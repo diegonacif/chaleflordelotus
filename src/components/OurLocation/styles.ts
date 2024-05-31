@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { deviceBreakpoint } from "../../styles/breakpoints";
 
 export const OurLocationContainer = styled.section`
   padding: 0 0.75rem 1rem;
@@ -20,5 +21,9 @@ export const OurLocationContainer = styled.section`
       width: 100%;
       height: 20rem;
     }
+  }
+
+  @media ${deviceBreakpoint.tablet} {
+    padding: 0 12.5vw 1rem;
   }
 `

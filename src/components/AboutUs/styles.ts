@@ -1,7 +1,9 @@
 import styled from "styled-components";
 import letterBg from "../../assets/lotus-bg.jpg";
+import { deviceBreakpoint } from "../../styles/breakpoints";
 
 export const AboutUsContainer = styled.section`
+  
   background-color: ${({ theme }) => theme['chale-branco']};
   color: ${({ theme }) => theme['gray-950']};
   padding: 1.75rem 0.75rem;
@@ -24,5 +26,14 @@ export const AboutUsContainer = styled.section`
 
   p ~ p {
     margin-top: 1rem;
+  }
+
+  @media ${deviceBreakpoint.tablet} {
+    display: flex;
+    justify-content: center;
+
+    p {
+      max-width: 75vw;
+    }
   }
 `

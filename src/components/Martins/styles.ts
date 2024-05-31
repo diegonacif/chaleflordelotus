@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { deviceBreakpoint } from "../../styles/breakpoints";
 
 interface MartinsPhotoProps {
   img: string;
@@ -8,7 +9,8 @@ interface MartinsPhotoProps {
 export const MartinsContainer = styled.section`
   display: flex;
   flex-direction: column;
-  padding: 1rem 0.75rem 3.5rem;
+  align-items: center;
+  padding: 1rem 0.75rem 4rem;
   background-color: ${({ theme }) => theme['chale-roxo']};
 
   h2 {
@@ -24,8 +26,12 @@ export const MartinsGrid = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  gap: 4rem 1rem;
+  gap: 4rem 2rem;
   margin-top: 1rem;
+
+  @media ${deviceBreakpoint.tablet} {
+    max-width: 75vw;
+  }
 `
 
 export const MartinsPhoto = styled.div<MartinsPhotoProps>`

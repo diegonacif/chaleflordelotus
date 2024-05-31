@@ -7,6 +7,7 @@ export const IntroBannerContainer = styled.section`
   height: calc(100dvh - 4rem);
   background: url(${bgBanner});
   background-size: cover;
+  background-position: center;
   color: black;
 
   button {

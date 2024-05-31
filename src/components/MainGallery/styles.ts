@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { deviceBreakpoint } from "../../styles/breakpoints";
 
 interface MainGalleryPhotoProps {
   img: string;
@@ -9,6 +10,7 @@ export const MainGalleryContainer = styled.section`
   flex-direction: column;
   padding: 1rem 0.75rem 1.5rem;
   background-color: ${({ theme }) => theme['chale-roxo']};
+  align-items: center;
 
   h2 {
     color: ${({ theme }) => theme['chale-branco']};
@@ -25,6 +27,12 @@ export const MainGalleryGrid = styled.div`
   justify-content: space-evenly;
   gap: 2rem 1rem;
   margin-top: 1rem;
+  width: 100%;
+
+  @media ${deviceBreakpoint.tablet} {
+    max-width: 75vw;
+    min-width: 21rem;
+  }
 `
 
 export const MainGalleryPhoto = styled.div<MainGalleryPhotoProps>`
