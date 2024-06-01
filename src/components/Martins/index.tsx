@@ -12,6 +12,9 @@ export function Martins() {
           martinsConstants.map((martins, index) => (
             <Link to={martins.url} key={index}>
               <MartinsPhoto img={martins.img} url={martins.url}>
+                <div className="photo-wrapper">
+                  <div className="photo" />
+                </div>
                 <span>{martins.subtitle}</span>
               </MartinsPhoto>
             </Link>
